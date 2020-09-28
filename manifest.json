@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "今日热榜tophub浏览体验改善",
+  "version": "1.0",
+  "description": "改善今日热榜的浏览体验，去除首页广告",
+  "icons": {
+    "300": "logo300.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "300": "logo300.png"
+    },
+    "default_title": "今日热榜tophub浏览体验改善",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://tophub.today/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "activeTab", "storage"
+  ],
+  "author": "stardust"
+}
