@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popup page</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+<div class="theCheckbox" id="AdRemoveCheckbox">
+    <label for="isAdRemove">移除横幅广告</label>
+    <input type="checkbox" id="isAdRemove">
+</div>
+
+<div class="theCheckbox" id="AppRecommendRemoveCheckbox">
+    <label for="isAppRecommendRemove">移除App广告</label>
+    <input type="checkbox" id="isAppRecommendRemove">
+</div>
+
+<div class="theCheckbox" id="autoDarkMode">
+    <label for="isAutoDarkMode">根据系统主题自动切换暗色模式</label>
+    <input type="checkbox" id="isAutoDarkMode">
+</div>
+
+<div class="theCheckbox" id="EnhanceDarkMode">
+    <label for="isDarkModeEnhance">暗色模式优化</label>
+    <input type="checkbox" id="isDarkModeEnhance">
+</div>
+
+<div class="theCheckbox" id="AutoScrollCheckbox">
+    <label for="isAutoScroll">自动滚动至订阅节点</label>
+    <input type="checkbox" id="isAutoScroll">
+</div>
+
+<div>
+    <button id="saveButton">保存设定</button>
+    <p id="status"></p>
+</div>
+
+<script type="text/javascript" src="options.js"></script>
+</body>
+</html>
