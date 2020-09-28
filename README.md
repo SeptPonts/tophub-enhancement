@@ -1,5 +1,5 @@
 # tophub-enhancement
-这是一个Chrome扩展，用来提升今日热榜网页的浏览体验
+这是一个Chrome扩展，用来提升今日热榜网页的浏览体验（已经上架到Chrome网上应用商店）
 
 当前提供的优化选项有：
 1. 移除横幅广告
@@ -15,7 +15,7 @@
 
 
 
-This repository is a Chrome extension that meant to enhance tophub(a website)'s user experience
+This repository is a Chrome extension that meant to enhance tophub(a website)'s user experience（uploaded to Chrome Web Store）
 
 At this moment this extension provides these options:
 1. Remove ad banner
